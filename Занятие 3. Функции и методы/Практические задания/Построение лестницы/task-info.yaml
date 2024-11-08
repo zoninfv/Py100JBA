@@ -9,7 +9,7 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 0
+      - offset: 94
         length: 36
         placeholder_text: "# TODO Напишите функцию print_stairs"
         initial_state:
@@ -20,9 +20,9 @@ files:
           def print_stairs(count_stairs=4):
               for i in range(1, count_stairs + 1):
                   print("*" * i)
-        selected: false
-        status: Unchecked
-      - offset: 39
+        selected: true
+        status: Failed
+      - offset: 133
         length: 62
         placeholder_text: "# TODO вызвать функцию без аргументов и с аргументом равным\
       \ 10"
@@ -33,8 +33,43 @@ files:
         encrypted_possible_answer: |-
           print_stairs()
           print_stairs(10)
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Fri, 08 Nov 2024 18:22:32 UTC"
+  expected: |
+    *
+    **
+    ***
+    ****
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    *******
+    ********
+    *********
+    **********
+  actual: |
+    *
+    **
+    ***
+    ****
+    None
+    *
+    **
+    ***
+    ****
+    *****
+    ******
+    *******
+    ********
+    *********
+    **********
+    None
 record: -1

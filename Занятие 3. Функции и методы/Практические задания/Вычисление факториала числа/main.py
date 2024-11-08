@@ -1,6 +1,6 @@
 # TODO Запишите функцию `factorial`
 n = 0
-def factorial():
+def factorial(n):
     if n == 0:
         return 1
 
@@ -8,9 +8,8 @@ def factorial():
     for num in range(1, n + 1):
         result *= num
 
-        return result
+    return result
 
 # TODO Вызовите функцию factorial и распечатайте результат 
 print(f"Факториал числа 0 равен {factorial(0)}")
 print(f"Факториал числа 5 равен {factorial(5)}")
-print(factorial(5))
