@@ -1,0 +1,23 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 36
+        length: 106
+        placeholder_text: "...  # TODO Запросите первое и последующие числа в цикле"
+        initial_state:
+          length: 56
+          offset: 36
+        initialized_from_dependency: false
+        encrypted_possible_answer: '"stop"'
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+status: Solved
+record: -1
+solution_hidden: true
+post_submission_on_open: true

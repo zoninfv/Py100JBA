@@ -1,0 +1,83 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 22
+        length: 7
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 22
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 > 10)
+        selected: true
+        status: Solved
+      - offset: 51
+        length: 64
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 104
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 == 10)
+        selected: true
+        status: Solved
+      - offset: 137
+        length: 7
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 186
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 != 5)
+        selected: true
+        status: Solved
+      - offset: 187
+        length: 8
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 289
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 <= 10)
+        selected: true
+        status: Solved
+      - offset: 227
+        length: 63
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 381
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 <= 5)
+        selected: false
+        status: Solved
+      - offset: 311
+        length: 63
+        placeholder_text: "...)  # TODO записать условие с помощью операторов сравнени\
+      я"
+        initial_state:
+          length: 60
+          offset: 462
+        initialized_from_dependency: false
+        encrypted_possible_answer: 5 == 5)
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Oct 2024 16:04:52 UTC"
+record: -1

@@ -1,0 +1,30 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 678
+        length: 44
+        placeholder_text: "# TODO Добавьте блок else c обработкой некорректного номера\
+      \ месяца"
+        initial_state:
+          length: 66
+          offset: 678
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          else:
+              print("Некорректный номер месяца")  # Если month не соответствует ни одному списку, выводим ошибку
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Oct 2024 16:23:28 UTC"
+record: -1

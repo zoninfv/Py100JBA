@@ -1,0 +1,42 @@
+type: theory
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 9
+        length: 29
+        placeholder_text: "...  # TODO Введите любое число"
+        initial_state:
+          length: 31
+          offset: 9
+        initialized_from_dependency: false
+        encrypted_possible_answer: 25
+        selected: true
+        status: Solved
+      - offset: 43
+        length: 23
+        placeholder_text: "...:  # TODO проверьте, что число является счастливым"
+        initial_state:
+          length: 53
+          offset: 45
+        initialized_from_dependency: false
+        encrypted_possible_answer: "number in [7, 13, 21]:"
+        selected: true
+        status: Solved
+      - offset: 103
+        length: 19
+        placeholder_text: "...:  # TODO проверьте, что число попадает в диапазон"
+        initial_state:
+          length: 53
+          offset: 135
+        initialized_from_dependency: false
+        encrypted_possible_answer: "1 <= number <= 100:"
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+status: Solved
+record: -1
+post_submission_on_open: true

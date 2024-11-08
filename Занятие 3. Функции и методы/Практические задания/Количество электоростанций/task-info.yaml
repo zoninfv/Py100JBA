@@ -1,0 +1,44 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 65
+        length: 136
+        placeholder_text: "...  # TODO Найдите количество электростанций, мощность кот\
+      орых превышает заданное значение"
+        initial_state:
+          length: 91
+          offset: 65
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          count = 0
+              for powerplant in powerplants_list:
+                  if powerplant["power"] > threshold:
+                      count += 1
+          
+              return count
+        selected: true
+        status: Solved
+      - offset: 456
+        length: 107
+        placeholder_text: "...  # TODO Вызовите функцию count_powerful_powerplants"
+        initial_state:
+          length: 55
+          offset: 411
+        initialized_from_dependency: false
+        encrypted_possible_answer: "count_powerful_powerplants(powerplants, threshold_power)"
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 08 Nov 2024 16:32:47 UTC"
+record: -1

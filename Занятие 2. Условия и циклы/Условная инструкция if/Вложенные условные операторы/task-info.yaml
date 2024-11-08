@@ -1,0 +1,30 @@
+type: output
+files:
+  - name: main.py
+    visible: true
+    placeholders:
+      - offset: 105
+        length: 64
+        placeholder_text: "# TODO записать условный оператор, который распечатает стро\
+      ку"
+        initial_state:
+          length: 61
+          offset: 105
+        initialized_from_dependency: false
+        encrypted_possible_answer: |-
+          if inside_condition:
+                  print("Ещё один условный оператор")
+        selected: true
+        status: Solved
+    learner_created: false
+  - name: __init__.py
+    visible: false
+    learner_created: false
+  - name: tests/output.txt
+    visible: false
+    learner_created: false
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 25 Oct 2024 15:59:12 UTC"
+record: -1
