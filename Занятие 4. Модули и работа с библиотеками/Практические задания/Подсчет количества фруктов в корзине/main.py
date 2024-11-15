@@ -11,3 +11,6 @@ if __name__ == '__main__':
     ]
 
     # TODO Подсчитайте фрукты с помощью Counter
+from collections import Counter
+fruit_counter = Counter(cart_fruits)
+print(fruit_counter)

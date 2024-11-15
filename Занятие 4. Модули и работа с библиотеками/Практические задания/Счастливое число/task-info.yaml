@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 60
+        length: 84
         placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
         initial_state:
@@ -16,9 +16,9 @@ files:
                   raise ValueError("Число не является положительным :(")
               if len(str(num)) != 6:
                   raise ValueError("Число не шестизначное :(")
-        selected: false
+        selected: true
         status: Unchecked
-      - offset: 109
+      - offset: 132
         length: 46
         placeholder_text: "...  # TODO проверить счастливое число или нет"
         initial_state:

@@ -1,5 +1,5 @@
 try:
-    x = ...  # TODO Напишите input, чтобы запросить число
+    x = int(input(0))  # TODO Напишите input, чтобы запросить число
     result = 10 / x
 except ZeroDivisionError:
     print("Ошибка: Деление на ноль!")
@@ -9,3 +9,4 @@ else:
     print("Результат: ", result)
 finally:
     print("Конец программы")
+

@@ -3,16 +3,16 @@ files:
   - name: main.py
     visible: true
     placeholders:
-      - offset: 139
-        length: 49
+      - offset: 176
+        length: 88
         placeholder_text: "...  # TODO Преобразовать цвета в верхний регистр"
         initial_state:
           length: 49
           offset: 139
         initialized_from_dependency: false
         encrypted_possible_answer: "[color.upper() for color in colors]"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -20,5 +20,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 15 Nov 2024 17:54:29 UTC"
 record: -1
