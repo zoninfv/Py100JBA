@@ -5,7 +5,7 @@ def calculate_average_age(students: list[dict])-> float:
      return averageage
 # TODO Напишите функцию filter_students_by_age
 def filter_students_by_age (students: list[dict],agefilter: float) -> list[dict]:
-    filters = [student["name"] for student in students if student['age'] < agefilter]
+    filters = [student for student in students if student['age'] < agefilter]
     return filters
 if __name__ == '__main__':
     # Пример списка учеников

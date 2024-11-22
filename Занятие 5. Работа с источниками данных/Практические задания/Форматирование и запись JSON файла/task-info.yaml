@@ -14,9 +14,9 @@ files:
           with open(INPUT_FILE, encoding="utf-8") as f:
                   json_data = json.load(f)
         selected: true
-        status: Failed
-      - offset: 192
-        length: 112
+        status: Solved
+      - offset: 184
+        length: 119
         placeholder_text: "...  # TODO Сериализуйте содержимое в файл из переменной INPUT_FILE"
         initial_state:
           length: 67
@@ -26,7 +26,7 @@ files:
           with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   json.dump(json_data, f, indent=4, ensure_ascii=False)
         selected: true
-        status: Failed
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,8 +37,11 @@ files:
   - name: input.json
     visible: true
     learner_created: false
-status: Failed
+  - name: output.json
+    visible: true
+    learner_created: true
+status: Solved
 feedback:
-  message: Syntax Error
-  time: "Fri, 22 Nov 2024 17:00:27 UTC"
+  message: Congratulations!
+  time: "Fri, 22 Nov 2024 17:36:53 UTC"
 record: -1

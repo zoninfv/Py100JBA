@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 64
-        length: 41
+        length: 120
         placeholder_text: "...  # TODO считать содержимое JSON файла"
         initial_state:
           length: 41
@@ -13,10 +13,10 @@ files:
         encrypted_possible_answer: |-
           with open(FILENAME, encoding="utf-8") as f:
                   json_data = json.load(f)
-        selected: false
-        status: Unchecked
-      - offset: 111
-        length: 53
+        selected: true
+        status: Solved
+      - offset: 190
+        length: 99
         placeholder_text: "...  # TODO найти максимальный элемент по ключу score"
         initial_state:
           length: 53
@@ -24,8 +24,8 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: "return max(json_data, key=lambda item: item[\"score\"\
       ])"
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -36,5 +36,8 @@ files:
   - name: input.json
     visible: true
     learner_created: false
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Nov 2024 17:45:41 UTC"
 record: -1

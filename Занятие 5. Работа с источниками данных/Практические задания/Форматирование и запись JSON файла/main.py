@@ -7,9 +7,9 @@ OUTPUT_FILE = "output.json"
 def task() -> None:
     with open (INPUT_FILE, encoding="utf-8") as file:
         json.data = json.load(file)
-        
-    with open (OUTPUT_FILE, encoding="utf-8") as file:
-        json.dump(json_data, f, indent=4, ensure_ascii=False)
+
+    with open (OUTPUT_FILE,"w", encoding="utf-8") as file:
+        json.dump(json.data, file, indent=4, ensure_ascii=False)
 
 
 if __name__ == '__main__':

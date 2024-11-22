@@ -7,7 +7,10 @@ def task():
         with open(OUTPUT_FILE, "w", encoding="utf-8") as output_file:
             for line in input_file:
                 output_file.write(line.upper())
+
 if __name__ == '__main__':
+    task()
+
     with open(OUTPUT_FILE, encoding="utf-8") as file:
         for current_line in file:
             print(current_line, end="")

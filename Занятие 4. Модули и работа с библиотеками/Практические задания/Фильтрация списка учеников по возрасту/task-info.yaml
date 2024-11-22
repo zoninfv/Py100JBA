@@ -17,7 +17,7 @@ files:
               avg_age = total_age / len(students)
               return avg_age
         selected: false
-        status: Failed
+        status: Solved
       - offset: 233
         length: 46
         placeholder_text: "# TODO Напишите функцию filter_students_by_age"
@@ -31,8 +31,8 @@ files:
               filtered = [student for student in students if student['age'] < filter_age]
               return filtered
         selected: true
-        status: Failed
-      - offset: 966
+        status: Solved
+      - offset: 958
         length: 87
         placeholder_text: |-
           # TODO Вычислите средний возраст учеников
@@ -45,8 +45,8 @@ files:
           average_age = calculate_average_age(students_list)
               print("Средний возраст учеников:", average_age)
         selected: true
-        status: Failed
-      - offset: 1097
+        status: Solved
+      - offset: 1089
         length: 242
         placeholder_text: |-
           # TODO Офильтруйте учеников
@@ -63,7 +63,7 @@ files:
               for current_student in filtered_students:
                   print(current_student['name'])
         selected: true
-        status: Failed
+        status: Solved
     learner_created: false
   - name: tests/test_task.py
     visible: false
@@ -74,9 +74,8 @@ files:
   - name: tests/__init__.py
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: "Проверьте, что в функция `filter_students_by_age` верно фильтрует учен\
-    иков."
-  time: "Fri, 15 Nov 2024 17:33:11 UTC"
+  message: Congratulations!
+  time: "Fri, 22 Nov 2024 17:58:53 UTC"
 record: -1
