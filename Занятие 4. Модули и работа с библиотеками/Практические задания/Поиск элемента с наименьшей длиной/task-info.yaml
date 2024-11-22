@@ -14,8 +14,8 @@ files:
           def get_shortest_word(words: list[str]) -> str:
               return min(words, key=len)
         selected: false
-        status: Unchecked
-      - offset: 161
+        status: Failed
+      - offset: 226
         length: 40
         placeholder_text: "...  # TODO Найдите самое короткое слово"
         initial_state:
@@ -24,7 +24,7 @@ files:
         initialized_from_dependency: false
         encrypted_possible_answer: get_shortest_word(words_list)
         selected: false
-        status: Unchecked
+        status: Failed
     learner_created: false
   - name: __init__.py
     visible: false
@@ -32,5 +32,12 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Incorrect
+  time: "Fri, 22 Nov 2024 15:21:47 UTC"
+  expected: |
+    kiwi
+  actual: |
+    Ellipsis
 record: -1

@@ -1,6 +1,6 @@
 # TODO Напишите функцию sort_participants
-
-
+def sort_participants(participants_list):
+    return sorted(participants_list, key=lambda p: p["name"])
 if __name__ == "__main__":
     participants_list = [
         {

@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 43
-        length: 63
+        length: 273
         placeholder_text: "...  # TODO проверить что число шестизначное и положительно\
       е"
         initial_state:
@@ -17,9 +17,9 @@ files:
               if len(str(num)) != 6:
                   raise ValueError("Число не шестизначное :(")
         selected: true
-        status: Failed
-      - offset: 111
-        length: 46
+        status: Solved
+      - offset: 316
+        length: 108
         placeholder_text: "...  # TODO проверить счастливое число или нет"
         initial_state:
           length: 46
@@ -29,7 +29,7 @@ files:
           list_digits = [int(digit) for digit in str(num)]
               return sum(list_digits[:3]) == sum(list_digits[3:])
         selected: false
-        status: Failed
+        status: Solved
     learner_created: false
   - name: __init__.py
     visible: false
@@ -37,8 +37,8 @@ files:
   - name: tests/output.txt
     visible: false
     learner_created: false
-status: Failed
+status: Solved
 feedback:
-  message: Syntax Error
-  time: "Fri, 15 Nov 2024 18:19:16 UTC"
+  message: Congratulations!
+  time: "Fri, 22 Nov 2024 14:59:52 UTC"
 record: -1
