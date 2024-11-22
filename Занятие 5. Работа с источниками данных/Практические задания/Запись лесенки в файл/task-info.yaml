@@ -10,7 +10,7 @@ files:
     visible: true
     placeholders:
       - offset: 72
-        length: 45
+        length: 224
         placeholder_text: "...  # TODO построчно записать лесенку в файл"
         initial_state:
           length: 45
@@ -20,8 +20,14 @@ files:
           with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
                   for count_asterisk in range(1, 11):
                       f.write(f"{count_asterisk * '*'}\n")
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Solved
     learner_created: false
-status: Unchecked
+  - name: output.txt
+    visible: true
+    learner_created: true
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Fri, 22 Nov 2024 16:35:18 UTC"
 record: -1

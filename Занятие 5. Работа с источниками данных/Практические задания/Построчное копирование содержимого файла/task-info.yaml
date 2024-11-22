@@ -4,7 +4,7 @@ files:
     visible: true
     placeholders:
       - offset: 70
-        length: 57
+        length: 59
         placeholder_text: "...  # TODO перезаписать содержимое одного файла в другой"
         initial_state:
           length: 57
@@ -15,8 +15,8 @@ files:
                   with open(OUTPUT_FILE, "w", encoding="utf-8") as output_file:
                       for line in input_file:
                           output_file.write(line.upper())
-        selected: false
-        status: Unchecked
+        selected: true
+        status: Failed
     learner_created: false
   - name: __init__.py
     visible: false
@@ -27,5 +27,8 @@ files:
   - name: input.txt
     visible: true
     learner_created: false
-status: Unchecked
+status: Failed
+feedback:
+  message: Error during execution
+  time: "Fri, 22 Nov 2024 16:40:16 UTC"
 record: -1

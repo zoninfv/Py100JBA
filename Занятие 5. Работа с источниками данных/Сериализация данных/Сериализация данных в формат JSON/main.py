@@ -1,7 +1,7 @@
 import json
 
 filename = 'output.json'
-indent = None  # TODO Подставьте любое целое число
+indent = 15  # TODO Подставьте любое целое число
 ensure_ascii = True  # TODO Замените на значение True
 
 data = {
